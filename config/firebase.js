@@ -13,14 +13,14 @@ const admin = require('firebase-admin');
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDXTNv-aEgortrIRRt6DUjVFmr8ab0o4EQ",
-  authDomain: "file-upload-system-to-firebase.firebaseapp.com",
-  projectId: "file-upload-system-to-firebase",
-  storageBucket: "file-upload-system-to-firebase.appspot.com",
-  messagingSenderId: "71416680916",
-  appId: "1:71416680916:web:88581436a335b787a28641",
-  measurementId: "G-RE1F8QEH6H",
-  storageBucket: "gs://file-upload-system-to-firebase.appspot.com",
+  apiKey: "apiKey",
+  authDomain: "authDomain",
+  projectId: "projectId",
+  storageBucket: "storageBucket",
+  messagingSenderId: "messagingSenderId",
+  appId: "appId",
+  measurementId: "measurementId",
+  storageBucket: "storageBucket",
   credential: admin.credential.cert(serviceAccount),
 };
 
