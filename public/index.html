@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carga de Archivo</title>
+</head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<body>
+    <h1>Cargar Archivo</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="storage" accept=".pdf, .jpg, .png, .gif">
+        <input type="submit" value="Cargar Archivo">
+    </form>
+    <ul id="file-list"></ul>
+    <script src="fetchFiles.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+{
+  "name": "file-upload-system-to-firebase",
+  "version": "1.0.0",
+  "description": "Upload files to Firebase: Upload, store, and access your files securely in the cloud with this simple web app.",
+  "main": "node server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinellysfigueroa/file-upload-system-to-firebase.git"
+  },
+  "keywords": [
+    "File",
+    "upload",
+    "firebase",
+    "Cloud",
+    "storage",
+    "Web",
+    "Application",
+    "Upload",
+    "files",
+    "Secure",
+    "storage",
+    "File",
+    "access",
+    "Cloud",
+    "File",
+    "management",
+    "Online",
+    "storage"
+  ],
+  "author": "Marinellys Figueroa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marinellysfigueroa/file-upload-system-to-firebase/issues"
+  },
+  "homepage": "https://github.com/marinellysfigueroa/file-upload-system-to-firebase#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.11.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
